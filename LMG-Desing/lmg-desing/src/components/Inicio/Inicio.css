@@ -1,0 +1,240 @@
+
+img{
+    width: 30rem;
+    height: 15rem;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+
+}
+.imagen_escritorio{
+  position: relative;
+  text-align: center;
+  background-image: url(./../../assets/escritorio.jpg);
+  opacity: 0.9;
+}
+h1{
+    
+    border-left: 4px solid #9cadeb;
+    font-size: 4rem;
+    color: #9cadeb;
+    margin-top: -1rem;
+    padding: 4px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    position: relative;
+    -webkit-text-fill-color: rgb(5, 5, 5);
+    -webkit-text-stroke: 0.5px #9cadeb;
+    /* font-family: 'Abel', sans-serif;
+    font-family: 'Staatliches', cursive; */
+    font-family: 'Varela Round', sans-serif;
+    
+ }
+ 
+ .div_subt{
+    
+    margin-bottom: 0;
+    text-align: center;
+ }
+ h2{
+  font-family: 'Voltaire', sans-serif;
+  color: #f9fafd;
+  font-size: 2rem;
+  font-weight: 10;
+  margin-left: 5rem;
+  margin-top: -0.5rem;
+ }
+ h3{
+   
+    width: 73%;
+    height: 100%;
+    margin: 0rem;
+    border-top: 4px solid;
+    padding-top: 2rem;
+    border-bottom: 4px solid;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #8497da;
+    margin-top: 4rem;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    float: inline-start;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+ }
+.ofrecemos{
+  text-align: center;
+  font-size: 2rem;
+  
+  font-family: 'Barlow Condensed', sans-serif;
+  color:#f5f6fa ;
+}
+  .tarjetas{
+    margin-top: 4rem;
+    margin: 2rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+ .flip-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+  flex-wrap: wrap;
+  width: 16rem;
+  height: 17rem;
+  perspective: 1000px;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin: 1rem;
+  
+  
+ 
+}
+
+.flip-card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  border-radius: 2em;
+  backface-visibility: hidden;
+
+  
+}
+
+
+
+.profile-image {
+  background-color: transparent;
+  border: none;
+  /* margin-top: 15px; */
+  border-radius: 5em;
+  /* width: 120px;
+  height: 120px; */
+  margin-left: 0px;
+}
+
+.basico{
+  object-fit: cover;
+  width: 16rem;
+  height: 17rem;
+  border-radius: 2em;
+  border: 4px solid  #8497da;
+ 
+}
+
+.pfp {
+  border-radius: 35em;
+  fill: #c143da;
+}
+
+
+.flip-card-back {
+  background: rgb(14,26,70);
+  background: linear-gradient(90deg, rgba(14,26,70,1) 16%, rgba(6,12,48,1) 97%);
+  border: 4px solid  #8497da;
+  transform: rotateY(180deg);
+  /* padding: 11px; */
+}
+
+.description {
+  margin-top: 14px;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  color: #8294d6;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Offside', cursive;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+
+
+  @media (max-width: 414px){
+ 
+ h1{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    -webkit-text-fill-color: rgb(5, 5, 5);
+    -webkit-text-stroke: 2.5px #9cadeb;
+ }
+ img{
+  width: 18rem;
+  height: 12rem;
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+h2{
+  margin-left: 2rem;
+  margin-top: -0.5rem;
+}
+
+  
+  /* 
+  .tarjetas{
+  display: inline;
+  flex-direction: row;
+  position: relative; */
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+ 
+  /* margin-left: auto;
+  margin-right: auto; 
+ }*/
+
+.flip-card {
+  display: flex;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  /* margin-left: 3rem; */
+
+}
+
+.flip-card-back {
+  background-color: #030303;
+  border: 4px solid  #8497da;
+  transform: rotateY(180deg);
+  
+  /* padding: 11px; */
+}
+
+.profile-image {
+  background-color: transparent;
+  border: none;
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+
+  border-radius: 5em;
+  /* width: 120px;
+  height: 120px; */
+  margin-left: -0.8rem;
+}
+
+
+
+  }

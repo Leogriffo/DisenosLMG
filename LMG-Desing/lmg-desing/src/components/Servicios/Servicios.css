@@ -1,0 +1,102 @@
+.conoce_nuestros{
+  text-align: center;
+  font-size: 3rem; 
+  font-family: 'Agdasima', sans-serif;
+  color:#f5f6fa ;
+  background: rgb(50,67,126);
+background: linear-gradient(72deg, rgba(50,67,126,1) 75%, rgba(44, 56, 141, 0.796) 100%);
+}
+
+
+.diseño_basico{
+    margin: 3rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 2rem;
+    display: contents;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 0rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    background-color:  #32437e;
+    padding: 1.5rem;
+    
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .price {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff
+  }
+  
+  .desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgba(156, 163, 175, 1);
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  .lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: rgba(156, 163, 175, 1);
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  .lists .list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem
+  }
+  
+  .lists .list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: rgb(20, 167, 27);
+  }
+  
+  .action {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgb(20, 167, 27);
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: rgb(0, 0, 0);
+    width: 18rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor: pointer;
+  }
+  .boton{
+    text-decoration: none;
+  }

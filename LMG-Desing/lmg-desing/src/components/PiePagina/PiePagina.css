@@ -1,0 +1,73 @@
+  
+  .pie_pagina{
+    border-top:  4px solid #7084cf;
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    
+  }
+.pie_contacto{
+  font-family: 'Ropa Sans', sans-serif;
+  color: #7084cf;
+  margin-top: -2.54rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.contac{
+
+  font-family: 'Ropa Sans', sans-serif;
+  color: #7084cf;
+}
+.redes{
+  font-family: 'Ropa Sans', sans-serif;
+  color: #7084cf;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.img_instagram{
+  width: 20px;
+  height: 20px;
+  margin-bottom:-5px ;
+
+}
+  .copy{
+font-size: 0.9rem;
+text-align: center;
+font-family: 'Voltaire', sans-serif;
+color: #7084cf;
+
+  }
+
+  @media (max-width: 768px){
+
+    .pie_pagina{
+        border-top:  4px solid #7084cf;
+        margin-top: 5rem;
+        width: 100%;
+        height: 10rem;
+        
+      }
+      .contac{
+        margin-left: 0rem;
+        font-family: 'Ropa Sans', sans-serif;
+        color: #7084cf;
+        
+      }
+      .pie_contacto{
+        font-family: 'Ropa Sans', sans-serif;
+        color: #7084cf;
+        margin-left: -0.9rem;
+        margin-top: -3rem;
+      }
+     
+      /* .redes{
+        font-family: 'Ropa Sans', sans-serif;
+        color: #7084cf;
+        text-decoration: none;
+        margin-left: 2rem;
+        padding-bottom: -10px;
+      }  */
+
+  }

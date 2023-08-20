@@ -1,0 +1,16 @@
+.App {
+    margin: 0;
+    /* height: 100%; */
+    text-align: center;
+    /* font-size: large; */
+    margin-top: 2px solid ;
+    color: #828caf;
+     
+     font-family: 'Abel', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+@media screen {
+   
+}
+
