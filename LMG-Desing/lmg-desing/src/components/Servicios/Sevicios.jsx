@@ -1,12 +1,17 @@
 import React from "react";
 import "../Servicios/Servicios.css"
 import { Link } from "react-router-dom";
+import logo from './../../assets/logo1.png'
 
 export default function Servicios() {
 return(
     <div>
-        <h1>Servicios</h1>
-        <h2>Nos Adaptamos a tus Necesidades</h2>
+		<img src={logo} className="logo" alt="logo"></img>
+           <div className="div-titulo">
+		        <h1>Servicios</h1>
+                <h2>Nos Adaptamos a tus Necesidades</h2>
+           </div>
+        
 		<p className="conoce_nuestros">CONOCE NUESTROS PAQUETES:</p>
         <div className="diseño_basico">
         <div className="card">

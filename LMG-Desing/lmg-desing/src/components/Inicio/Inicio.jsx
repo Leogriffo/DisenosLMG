@@ -5,7 +5,7 @@ import escritorio from './../../assets/escritorio.jpg'
 import basico from './../../assets/diseño_basico.png'
 import profesional from './../../assets/diseño_profesional.png'
 import tienda from './../../assets/tienda_online.png'
-
+import logo from './../../assets/logo1.png'
 
 
 
@@ -13,8 +13,12 @@ import tienda from './../../assets/tienda_online.png'
 export default function Inicio() {
     return (
         <div className="pantalla">
-            <h1 className="titulo" >Diseños LMG </h1> 
-            <h2>Diseño Web Profesional</h2>
+           <img src={logo} className="logo" alt="logo"></img>
+           <div className="div-titulo">
+                <h1 className="titulo" >Diseños LMG </h1> 
+                <h2>Diseño Web Profesional</h2>
+            </div>
+           
                 <div className="imagen_escritorio">
                     <img src={escritorio} alt=""/>     
                 </div>    
